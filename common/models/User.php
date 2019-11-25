@@ -102,7 +102,6 @@ class User extends ActiveRecord implements IdentityInterface
             'status' => self::STATUS_ACTIVE,
         ]);
     }
-
     /**
      * Finds user by verification email token
      *

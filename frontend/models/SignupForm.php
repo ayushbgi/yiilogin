@@ -22,6 +22,11 @@ class SignupForm extends Model
     public function rules()
     {
         return [
+
+            ['id','trim'],
+            ['id','required'],
+            ['id', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This Id already exists.'],
+
             ['username', 'trim'],
             ['username', 'required'],
             ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
@@ -50,6 +55,7 @@ class SignupForm extends Model
         }
         
         $user = new User();
+        $user->id=$this->id;
         $user->username = $this->username;
         $user->email = $this->email;
         $user->setPassword($this->password);
@@ -75,7 +81,7 @@ class SignupForm extends Model
             )
             ->setFrom([Yii::$app->params['supportEmail'] => Yii::$app->name . ' robot'])
             ->setTo($this->email)
-            ->setSubject('Account registration at ' . Yii::$app->name)
+            ->setSubject('Account registration at ' . Yii::$app->name . 'with Employee Id '. Yii::$app->id)
             ->send();
     }
 }
