@@ -13134,3 +13134,1742 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1574598482.406
     'REQUEST_TIME' => 1574598482
 ]
+2019-11-24 14:03:04 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:85
+2019-11-24 14:03:04 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+2019-11-24 14:03:04 [192.168.1.34][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.34'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '49790'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiilogin/frontend/web/'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574600584.425
+    'REQUEST_TIME' => 1574600584
+]
+2019-11-24 14:03:13 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:238
+2019-11-24 14:03:13 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+2019-11-24 14:03:13 [192.168.1.34][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q4j7es5pktlsjbnaq8lgig3tr8'
+    '_csrf-frontend' => '15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=q4j7es5pktlsjbnaq8lgig3tr8; _csrf-frontend=15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.34'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '49794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574600593.133
+    'REQUEST_TIME' => 1574600593
+]
+2019-11-24 14:03:14 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:226
+2019-11-24 14:03:14 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+2019-11-24 14:03:14 [192.168.1.34][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q4j7es5pktlsjbnaq8lgig3tr8'
+    '_csrf-frontend' => '15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kqbodol'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=q4j7es5pktlsjbnaq8lgig3tr8; _csrf-frontend=15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.34'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '49794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574600594.131
+    'REQUEST_TIME' => 1574600594
+]
+2019-11-24 14:03:14 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+2019-11-24 14:03:14 [192.168.1.34][-][-][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '5dda7f92335498.22214444'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q4j7es5pktlsjbnaq8lgig3tr8'
+    '_csrf-frontend' => '15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kqbodol'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=q4j7es5pktlsjbnaq8lgig3tr8; _csrf-frontend=15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.34'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '49794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=5dda7f92335498.22214444'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fcaptcha&v=5dda7f92335498.22214444'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574600594.262
+    'REQUEST_TIME' => 1574600594
+]
+2019-11-24 14:03:15 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:238
+2019-11-24 14:03:15 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+2019-11-24 14:03:15 [192.168.1.34][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q4j7es5pktlsjbnaq8lgig3tr8'
+    '_csrf-frontend' => '15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kqbodol'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=q4j7es5pktlsjbnaq8lgig3tr8; _csrf-frontend=15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.34'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '49794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574600595.262
+    'REQUEST_TIME' => 1574600595
+]
+2019-11-24 14:03:15 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:255
+2019-11-24 14:03:15 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+2019-11-24 14:03:15 [192.168.1.34][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q4j7es5pktlsjbnaq8lgig3tr8'
+    '_csrf-frontend' => '15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kqbodol'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=q4j7es5pktlsjbnaq8lgig3tr8; _csrf-frontend=15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.34'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '49794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574600595.773
+    'REQUEST_TIME' => 1574600595
+]
+2019-11-24 14:03:16 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:191
+2019-11-24 14:03:16 [192.168.1.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.34
+2019-11-24 14:03:16 [192.168.1.34][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q4j7es5pktlsjbnaq8lgig3tr8'
+    '_csrf-frontend' => '15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kqbodol'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=q4j7es5pktlsjbnaq8lgig3tr8; _csrf-frontend=15ce4f093bc5ecd2ee766d13111e433af09e54bb70f5310cc6d6f2536bbbd3a7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zU5r2vDQv9Ebcw9iXeZ_kSofOckcz4VN%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.34'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '49794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574600596.396
+    'REQUEST_TIME' => 1574600596
+]
+2019-11-25 05:29:01 [::1][-][6n0lqcpboifmucq87oe74f2526][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Db". in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('Db', Array)
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-25 05:29:01 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'Db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65192'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Db'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=Db'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656140.762
+    'REQUEST_TIME' => 1574656140
+]
+2019-11-25 05:29:07 [::1][-][6n0lqcpboifmucq87oe74f2526][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1 in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(138): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1
+The SQL being executed was: SELECT * LEFT JOIN `userinfo` ON user.id=userinfo.id in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * LEFT J...')
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(138): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1
+)
+
+2019-11-25 05:29:06 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'site/db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65193'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdb'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fdb'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656146.937
+    'REQUEST_TIME' => 1574656146
+]
+2019-11-25 05:29:30 [::1][-][6n0lqcpboifmucq87oe74f2526][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1 in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(138): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1
+The SQL being executed was: SELECT * LEFT JOIN `userinfo` ON user.id=userinfo.id in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * LEFT J...')
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(138): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1
+)
+
+2019-11-25 05:29:30 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'site/db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65197'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdb'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fdb'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656170.398
+    'REQUEST_TIME' => 1574656170
+]
+2019-11-25 05:31:07 [::1][-][6n0lqcpboifmucq87oe74f2526][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1 in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(135): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1
+The SQL being executed was: SELECT * LEFT JOIN `userinfo` ON user.id=userinfo.id in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * LEFT J...')
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(135): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id' at line 1
+)
+
+2019-11-25 05:31:07 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'site/db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65205'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdb'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fdb'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656267.661
+    'REQUEST_TIME' => 1574656267
+]
+2019-11-25 05:32:21 [::1][-][6n0lqcpboifmucq87oe74f2526][error][Error] Error: Call to undefined function frontend\controllers\select() in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:135
+Stack trace:
+#0 [internal function]: frontend\controllers\SiteController->actionDb()
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#5 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-11-25 05:32:21 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'site/db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65211'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdb'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fdb'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656341.368
+    'REQUEST_TIME' => 1574656341
+]
+2019-11-25 05:32:41 [::1][-][6n0lqcpboifmucq87oe74f2526][error][Error] Error: Call to undefined function frontend\controllers\select() in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:135
+Stack trace:
+#0 [internal function]: frontend\controllers\SiteController->actionDb()
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#5 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-11-25 05:32:41 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'site/db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65216'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdb'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fdb'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656361.526
+    'REQUEST_TIME' => 1574656361
+]
+2019-11-25 05:35:21 [::1][-][6n0lqcpboifmucq87oe74f2526][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `employees`.`status`='active'' at line 1 in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(135): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `employees`.`status`='active'' at line 1
+The SQL being executed was: SELECT * LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `employees`.`status`='active' in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * LEFT J...')
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(135): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `employees`.`status`='active'' at line 1
+)
+
+2019-11-25 05:35:21 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'site/db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65286'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdb'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fdb'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656521.667
+    'REQUEST_TIME' => 1574656521
+]
+2019-11-25 05:36:31 [::1][-][6n0lqcpboifmucq87oe74f2526][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `user`.`status`='2'' at line 1 in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(135): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `user`.`status`='2'' at line 1
+The SQL being executed was: SELECT * LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `user`.`status`='2' in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * LEFT J...')
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(135): yii\db\Query->all()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `user`.`status`='2'' at line 1
+)
+
+2019-11-25 05:36:31 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'site/db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65305'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdb'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fdb'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656591.163
+    'REQUEST_TIME' => 1574656591
+]
+2019-11-25 05:39:47 [::1][-][6n0lqcpboifmucq87oe74f2526][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `user`.`status`='2'' at line 1 in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(274): yii\db\Command->queryOne()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(135): yii\db\Query->one()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `user`.`status`='2'' at line 1
+The SQL being executed was: SELECT * LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `user`.`status`='2' in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * LEFT J...')
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * LEFT J...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\db\Query.php(274): yii\db\Command->queryOne()
+#4 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(135): yii\db\Query->one()
+#5 [internal function]: frontend\controllers\SiteController->actionDb()
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('db', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/db', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN `userinfo` ON user.id=userinfo.id WHERE `user`.`status`='2'' at line 1
+)
+
+2019-11-25 05:39:47 [::1][-][6n0lqcpboifmucq87oe74f2526][info][application] $_GET = [
+    'r' => 'site/db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '6n0lqcpboifmucq87oe74f2526'
+    '_csrf-frontend' => 'ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'domenob'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=6n0lqcpboifmucq87oe74f2526; _csrf-frontend=ef9c4363b966d66f3f6cbdc582b6590b1e04db6fd541e76c7eb5236dfbb3d070a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O8cmqetR_4DsUL5XT3RvpaWgSi9MlOB2%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdb'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fdb'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574656787.362
+    'REQUEST_TIME' => 1574656787
+]
+2019-11-25 05:49:42 [::1][-][8pou7djc5alhs3bfbr2di121t6][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php:15
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php(15): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 15, Array)
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('leave', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(169): yii\base\Controller->render('leave', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionLeave()
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('leave', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/leave', Array)
+#11 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-25 05:49:42 [::1][-][8pou7djc5alhs3bfbr2di121t6][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP\";}'
+    'advanced-frontend' => '8pou7djc5alhs3bfbr2di121t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP%22%3B%7D; advanced-frontend=8pou7djc5alhs3bfbr2di121t6'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574657382.792
+    'REQUEST_TIME' => 1574657382
+]
+2019-11-25 05:52:25 [::1][-][8pou7djc5alhs3bfbr2di121t6][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: frontend\controllers\SiteController::goHome in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(94): yii\base\Component->__get('goHome')
+#1 [internal function]: frontend\controllers\SiteController->actionStatus()
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('status', Array)
+#5 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/status', Array)
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2019-11-25 05:52:25 [::1][-][8pou7djc5alhs3bfbr2di121t6][info][application] $_GET = [
+    'r' => 'site/status'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP\";}'
+    'advanced-frontend' => '8pou7djc5alhs3bfbr2di121t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP%22%3B%7D; advanced-frontend=8pou7djc5alhs3bfbr2di121t6'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65439'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fstatus'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fstatus'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574657545.317
+    'REQUEST_TIME' => 1574657545
+]
+2019-11-25 05:53:17 [::1][-][8pou7djc5alhs3bfbr2di121t6][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php:15
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php(15): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 15, Array)
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('leave', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(174): yii\base\Controller->render('leave', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionLeave()
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('leave', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/leave', Array)
+#11 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-25 05:53:17 [::1][-][8pou7djc5alhs3bfbr2di121t6][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP\";}'
+    'advanced-frontend' => '8pou7djc5alhs3bfbr2di121t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'siyzkeq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP%22%3B%7D; advanced-frontend=8pou7djc5alhs3bfbr2di121t6'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574657597.734
+    'REQUEST_TIME' => 1574657597
+]
+2019-11-25 05:54:34 [::1][-][8pou7djc5alhs3bfbr2di121t6][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php:15
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php(15): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 15, Array)
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('leave', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(174): yii\base\Controller->render('leave', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionLeave()
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('leave', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/leave', Array)
+#11 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-25 05:54:34 [::1][-][8pou7djc5alhs3bfbr2di121t6][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP\";}'
+    'advanced-frontend' => '8pou7djc5alhs3bfbr2di121t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'siyzkeq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP%22%3B%7D; advanced-frontend=8pou7djc5alhs3bfbr2di121t6'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65454'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574657674.483
+    'REQUEST_TIME' => 1574657674
+]
+2019-11-25 05:54:35 [::1][-][8pou7djc5alhs3bfbr2di121t6][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php:15
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php(15): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 15, Array)
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('leave', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(174): yii\base\Controller->render('leave', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionLeave()
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('leave', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/leave', Array)
+#11 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-25 05:54:35 [::1][-][8pou7djc5alhs3bfbr2di121t6][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP\";}'
+    'advanced-frontend' => '8pou7djc5alhs3bfbr2di121t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'siyzkeq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=648b526912502cee5b8f2418d044f02aac16bb1c3fa21b025093509e9e16426ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22clmJ6Wl8DyRNbksqt7I3d4t44KK3rMxP%22%3B%7D; advanced-frontend=8pou7djc5alhs3bfbr2di121t6'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65455'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574657675.511
+    'REQUEST_TIME' => 1574657675
+]

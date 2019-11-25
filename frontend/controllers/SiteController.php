@@ -90,7 +90,12 @@ class SiteController extends Controller
     }
     public function actionStatus()
     {
+        if (Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
+        else {
         return $this->render('status');
+        }
                 
     }
     
@@ -121,18 +126,21 @@ class SiteController extends Controller
 
 //$query->select('name as item')->from('auth_item')->orderBy('created_at');
 
+// $query = new Query();
+//         //$data= Yii::$app->db->createCommand()
+//     $query->select(['id','fname'])
+//                 ->from('userinfo')
+// 		->where('id=1')
+// 		//->orderBy()
+// 		//->groupBy()
+// 		->One();
+//         $command = $query->createCommand();
+// $records = $command->queryAll();
 $query = new Query();
-        //$data= Yii::$app->db->createCommand()
-    $query->select(['id','fname'])
-                ->from('userinfo')
-		->where('id=1')
-		//->orderBy()
-		//->groupBy()
-		->One();
-        $command = $query->createCommand();
+$query->select('*')->from('user')->leftJoin('userinfo','user.id=userinfo.id')->where(['user.status'=>'2'])->all();
+$command = $query->createCommand();
 $records = $command->queryAll();
-
-    print_r($records);
+print_r($records);
         
         
     exit;
