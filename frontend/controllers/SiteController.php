@@ -129,10 +129,14 @@ class SiteController extends Controller
 //         $command = $query->createCommand();
 // $records = $command->queryAll();
 $query = new Query();
-$query->select('*')->from('user')->leftJoin('userinfo','user.id=userinfo.id')->where(['user.status'=>'2'])->all();
+$query->select('*')->from('user')->leftJoin('userinfo','user.id=userinfo.id')->where(['user.status'=>2])->all();
 $command = $query->createCommand();
 $records = $command->queryAll();
-print_r($records);
+print_r($records);echo "<br><br>";
+foreach($records as $user) {
+      echo $user['fname'].'<br />';
+    }
+
         
         
     exit;

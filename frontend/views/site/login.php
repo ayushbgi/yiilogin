@@ -25,15 +25,20 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'rememberMe')->checkbox() ?>
 
+                <div class="form-group">
+                    <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+                </div>
+
                 <div style="color:#999;margin:1em 0">
                     <?= Html::a('Forgot Password', ['site/request-password-reset']) ?>.
                     <br>
                   <?= Html::a('Resend verification email? ', ['site/resend-verification-email']) ?>
+                  <br><br>
+                  <?= Html::a('Dont have account? Signup ! ', ['signup']) ?>
+                  
                 </div>
 
-                <div class="form-group">
-                    <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
-                </div>
+                
 
             <?php ActiveForm::end(); ?>
         </div>
