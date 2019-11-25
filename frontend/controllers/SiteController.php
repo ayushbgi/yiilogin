@@ -78,25 +78,17 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-       
-        //return $this->render('index');
-        
         if (Yii::$app->user->isGuest) {
-          return $this->render('index');
-      }
-      else {
-        return $this->redirect(['my']);
-    }
+          return $this->render('index');}
+        else {
+        return $this->redirect(['my']);}
     }
     public function actionStatus()
     {
         if (Yii::$app->user->isGuest) {
-            return $this->goHome();
-        }
+            return $this->goHome(); }
         else {
-        return $this->render('status');
-        }
-                
+        return $this->render('status'); }
     }
     
     public function actionDb()
@@ -160,19 +152,17 @@ print_r($records);
     
     public function actionLeave()
     {
-         $model = new LeaveForm();
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
-            } else {
-                Yii::$app->session->setFlash('error', 'There was an error sending your message.');
-            }
-
-            return $this->refresh();
-        } else {
-            return $this->render('leave', [
-                'model' => $model,
-            ]);
+        if (Yii::$app->user->isGuest) {
+            return $this->goHome(); }
+        else { 
+            $model = new LeaveForm();
+            if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+                if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                    Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');} 
+                else {  Yii::$app->session->setFlash('error', 'There was an error sending your message.'); }
+                return $this->refresh(); } 
+            else {
+                return $this->render('leave', ['model' => $model,]);}
         }
     }
 

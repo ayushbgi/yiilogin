@@ -10,6 +10,7 @@ use common\models\User;
  */
 class SignupForm extends Model
 {
+    public $id;
     public $username;
     public $email;
     public $password;
