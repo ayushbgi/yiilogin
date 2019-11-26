@@ -6,7 +6,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
+
 
 $this->title = 'Leave';
 $this->params['breadcrumbs'][] = $this->title;
@@ -22,9 +22,9 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['id' => 'leave-form']); ?>
 
-                <?= $form->field($model, 'subject')->textInput(['autofocus' => true,'placeholder'=>'Subject']) ?>
+                <?= $form->field($model, 'sub')->textInput(['autofocus' => true,'placeholder'=>'Subject'])->label('Subject') ?>
                 
-                <?= $form->field($model, 'body')->textarea(['rows' => 6,'placeholder'=>'Brief Description'])->label('Brief') ?>
+                <?= $form->field($model, 'brief')->textarea(['rows' => 6,'placeholder'=>'Brief Description'])->label('Brief') ?>
 
                 
                 <div class="form-group">

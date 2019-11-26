@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
@@ -14,7 +15,10 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
-use frontend\models\LeaveForm;
+use frontend\models\UserLeave;
+use common\models\User;
+
+
 
 use yii\db\Query;
 
@@ -156,18 +160,29 @@ foreach($records as $user) {
     
     public function actionLeave()
     {
-        if (Yii::$app->user->isGuest) {
-            return $this->goHome(); }
-        else { 
-            $model = new LeaveForm();
-            if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-                if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                    Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');} 
-                else {  Yii::$app->session->setFlash('error', 'There was an error sending your message.'); }
-                return $this->refresh(); } 
-            else {
-                return $this->render('leave', ['model' => $model,]);}
+        // if (Yii::$app->user->isGuest) {
+        //     return $this->goHome(); }
+        // else { 
+        //     $model = new LeaveForm();
+        //     if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+        //         if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+        //             Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');} 
+        //         else {  Yii::$app->session->setFlash('error', 'There was an error sending your message.'); }
+        //         return $this->refresh(); } 
+        //     else {
+        //         return $this->render('leave', ['model' => $model,]);}
+        // }
+
+        $model = new UserLeave();
+       
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            Yii::$app->session->setFlash('success', 'Blah Blah Blah');
+            
+            //return $this->goHome();
+            
         }
+
+        return $this->render('leave', ['model' => $model,]);
     }
 
     /**
