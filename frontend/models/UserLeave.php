@@ -1,26 +1,19 @@
 <?php
 
+//namespace app\models;
 namespace frontend\models;
 
 use Yii;
-use yii\base\Model;
-use common\models\User;
-use yii\db\ActiveRecord;
-use yii\db\Query;
 
 /**
  * This is the model class for table "userleave".
  *
- * @property int $id
+ * @property int $leave_id
  * @property string $sub
  * @property string $brief
  */
-class UserLeave extends ActiveRecord
-//class UserLeave extends Model
+class UserLeave extends \yii\db\ActiveRecord
 {
-   
-    //public $email;
-    
     /**
      * {@inheritdoc}
      */
@@ -35,11 +28,12 @@ class UserLeave extends ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'sub', 'brief'], 'required'],
-            [['id'], 'integer'],
+           // [['leave_id', 'sub', 'brief'], 'required'],
+           [['sub', 'brief'], 'required'],
+           // [['leave_id'], 'integer'],
             [['sub'], 'string', 'max' => 50],
             [['brief'], 'string', 'max' => 100],
-            [['id'], 'unique'],
+           // [['leave_id'], 'unique'],
         ];
     }
 
@@ -49,21 +43,9 @@ class UserLeave extends ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
+            //'leave_id' => 'leave_id',
             'sub' => 'Sub',
             'brief' => 'Brief',
         ];
-    }
-
-    public function leave()
-    {
-        
-        $leave = new UserLeave();
-        $leave->id=$this->id;
-        $leave->sub = $this->sub;
-        $leave->brief = $this->brief;
-       // $leave->email = 'ayush@bgi.com';
-        //echo $leave->save(); 
-       return $leave->save();// && $this->sendEmail($user);
     }
 }

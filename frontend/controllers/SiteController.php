@@ -16,7 +16,13 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use frontend\models\UserLeave;
-use common\models\User;
+
+
+//use app\models\UserLeave;
+use app\models\UserLeaveForm;
+
+use yii\web\NotFoundHttpException;
+
 
 
 
@@ -172,17 +178,22 @@ foreach($records as $user) {
         //     else {
         //         return $this->render('leave', ['model' => $model,]);}
         // }
-
+        if (Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
+        else {
         $model = new UserLeave();
        
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            Yii::$app->session->setFlash('success', 'Blah Blah Blah');
-            
-            //return $this->goHome();
-            
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            //return $this->redirect(['view', 'id' => $model->id]);
+            Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
+            return $this->redirect(['leave']);
         }
 
-        return $this->render('leave', ['model' => $model,]);
+        return $this->render('leave', [
+            'model' => $model,
+        ]);
+        }
     }
 
     /**
