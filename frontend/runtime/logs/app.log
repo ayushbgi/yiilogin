@@ -24927,3 +24927,1106 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1574840770.586
     'REQUEST_TIME' => 1574840770
 ]
+2019-11-27 10:15:32 [::1][1][r6rfrc3jroa19fcatcr77eh4s4][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: yii\bootstrap\ActiveForm::hiddenField() in D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php(24): yii\base\Component->__call('hiddenField', Array)
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('leave', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(194): yii\base\Controller->render('leave', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionLeave()
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('leave', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/leave', Array)
+#11 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-27 10:15:32 [::1][1][r6rfrc3jroa19fcatcr77eh4s4][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'r6rfrc3jroa19fcatcr77eh4s4'
+    '_identity-frontend' => '52c438cdf0c411102b6de31e937be1bbfb69f9959ccacacdcdec13c3eb6b4c02a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"uqSy-hxbTcpuePCZaG67d2xslY5SVtb8\",2592000]\";}'
+    '_csrf-frontend' => '07a307da88838cefc4a48acabb08f12c7f5b4c944e335990c1462edee5b017e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"sxuOccs_brdyL_Q4j87ZsIwCpC34mX_U\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vesupaz'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=r6rfrc3jroa19fcatcr77eh4s4; _identity-frontend=52c438cdf0c411102b6de31e937be1bbfb69f9959ccacacdcdec13c3eb6b4c02a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uqSy-hxbTcpuePCZaG67d2xslY5SVtb8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=07a307da88838cefc4a48acabb08f12c7f5b4c944e335990c1462edee5b017e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sxuOccs_brdyL_Q4j87ZsIwCpC34mX_U%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65432'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574846132.424
+    'REQUEST_TIME' => 1574846132
+]
+2019-11-27 10:20:30 [::1][1][r6rfrc3jroa19fcatcr77eh4s4][error][yii\base\ErrorException:2] yii\base\ErrorException: The use statement with non-compound name 'yii' has no effect in D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php:6
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(348): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'D:\\xampp\\htdocs...', 6, Array)
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(348): require()
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('leave', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(194): yii\base\Controller->render('leave', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionLeave()
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('leave', Array)
+#10 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/leave', Array)
+#11 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-27 10:20:30 [::1][1][r6rfrc3jroa19fcatcr77eh4s4][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'r6rfrc3jroa19fcatcr77eh4s4'
+    '_identity-frontend' => '52c438cdf0c411102b6de31e937be1bbfb69f9959ccacacdcdec13c3eb6b4c02a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"uqSy-hxbTcpuePCZaG67d2xslY5SVtb8\",2592000]\";}'
+    '_csrf-frontend' => '07a307da88838cefc4a48acabb08f12c7f5b4c944e335990c1462edee5b017e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"sxuOccs_brdyL_Q4j87ZsIwCpC34mX_U\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__captcha/site/captcha' => 'vesupaz'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+    'success' => 'Leave received! We will respond to you for conformation.'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=r6rfrc3jroa19fcatcr77eh4s4; _identity-frontend=52c438cdf0c411102b6de31e937be1bbfb69f9959ccacacdcdec13c3eb6b4c02a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uqSy-hxbTcpuePCZaG67d2xslY5SVtb8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=07a307da88838cefc4a48acabb08f12c7f5b4c944e335990c1462edee5b017e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sxuOccs_brdyL_Q4j87ZsIwCpC34mX_U%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '49389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574846430.542
+    'REQUEST_TIME' => 1574846430
+]
+2019-11-27 10:28:41 [::1][1][r6rfrc3jroa19fcatcr77eh4s4][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in D:\xampp\htdocs\yiilogin\frontend\views\site\leave.php:25
+Stack trace:
+#0 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('leave', Array, Object(frontend\controllers\SiteController))
+#3 D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php(194): yii\base\Controller->render('leave', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionLeave()
+#5 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('leave', Array)
+#8 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/leave', Array)
+#9 D:\xampp\htdocs\yiilogin\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\yiilogin\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2019-11-27 10:28:41 [::1][1][r6rfrc3jroa19fcatcr77eh4s4][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'r6rfrc3jroa19fcatcr77eh4s4'
+    '_identity-frontend' => '52c438cdf0c411102b6de31e937be1bbfb69f9959ccacacdcdec13c3eb6b4c02a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"uqSy-hxbTcpuePCZaG67d2xslY5SVtb8\",2592000]\";}'
+    '_csrf-frontend' => '07a307da88838cefc4a48acabb08f12c7f5b4c944e335990c1462edee5b017e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"sxuOccs_brdyL_Q4j87ZsIwCpC34mX_U\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__captcha/site/captcha' => 'vesupaz'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+    'success' => 'Leave received! We will respond to you for conformation.'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=r6rfrc3jroa19fcatcr77eh4s4; _identity-frontend=52c438cdf0c411102b6de31e937be1bbfb69f9959ccacacdcdec13c3eb6b4c02a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uqSy-hxbTcpuePCZaG67d2xslY5SVtb8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=07a307da88838cefc4a48acabb08f12c7f5b4c944e335990c1462edee5b017e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sxuOccs_brdyL_Q4j87ZsIwCpC34mX_U%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '50136'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574846921.834
+    'REQUEST_TIME' => 1574846921
+]
+2019-11-27 10:32:15 [192.168.1.56][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:92
+2019-11-27 10:32:15 [192.168.1.56][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:15 [192.168.1.56][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf-frontend' => '5aa54b8f2d180e5d69bdf2116a9b54ba7c505b92cea901f5c9b8f50cb822113da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HnYLTu3QIXL5oCFVsaoPYnQq-20t9mGu\";}'
+    'advanced-frontend' => 'nfi00d141m102l1cd52buo90gb'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf-frontend=5aa54b8f2d180e5d69bdf2116a9b54ba7c505b92cea901f5c9b8f50cb822113da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HnYLTu3QIXL5oCFVsaoPYnQq-20t9mGu%22%3B%7D; advanced-frontend=nfi00d141m102l1cd52buo90gb'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65312'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiilogin/frontend/web/'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847135.486
+    'REQUEST_TIME' => 1574847135
+]
+2019-11-27 10:32:18 [192.168.1.56][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:219
+2019-11-27 10:32:18 [192.168.1.56][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:18 [192.168.1.56][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf-frontend' => '5aa54b8f2d180e5d69bdf2116a9b54ba7c505b92cea901f5c9b8f50cb822113da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HnYLTu3QIXL5oCFVsaoPYnQq-20t9mGu\";}'
+    'advanced-frontend' => 'nfi00d141m102l1cd52buo90gb'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf-frontend=5aa54b8f2d180e5d69bdf2116a9b54ba7c505b92cea901f5c9b8f50cb822113da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HnYLTu3QIXL5oCFVsaoPYnQq-20t9mGu%22%3B%7D; advanced-frontend=nfi00d141m102l1cd52buo90gb'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65312'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847138.039
+    'REQUEST_TIME' => 1574847138
+]
+2019-11-27 10:32:27 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:27 [192.168.1.56][10][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'w3Mqf-eJD59ThLJLDVFKe-NHCzLEBlJQyksgbkIO0XCLHXMzs_w8zhrc_n5iEgwtkCZkYp1oAyHneRAae2OWBQ=='
+    'LoginForm' => [
+        'username' => 'sharath'
+        'password' => 'sharath123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf-frontend' => '5aa54b8f2d180e5d69bdf2116a9b54ba7c505b92cea901f5c9b8f50cb822113da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HnYLTu3QIXL5oCFVsaoPYnQq-20t9mGu\";}'
+    'advanced-frontend' => 'nfi00d141m102l1cd52buo90gb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 10
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '244'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://192.168.1.34'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf-frontend=5aa54b8f2d180e5d69bdf2116a9b54ba7c505b92cea901f5c9b8f50cb822113da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HnYLTu3QIXL5oCFVsaoPYnQq-20t9mGu%22%3B%7D; advanced-frontend=nfi00d141m102l1cd52buo90gb'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65315'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847147.641
+    'REQUEST_TIME' => 1574847147
+]
+2019-11-27 10:32:27 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:162
+2019-11-27 10:32:27 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:27 [192.168.1.56][10][-][info][application] $_GET = [
+    'r' => 'site/my'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'advanced-frontend' => 'qb5l9bnaa7meaau8aol7vhueb3'
+    '_identity-frontend' => 'd8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 10
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; advanced-frontend=qb5l9bnaa7meaau8aol7vhueb3; _identity-frontend=d8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65315'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmy'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fmy'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847147.815
+    'REQUEST_TIME' => 1574847147
+]
+2019-11-27 10:32:30 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:101
+2019-11-27 10:32:30 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:30 [192.168.1.56][10][-][info][application] $_GET = [
+    'r' => 'site/status'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'advanced-frontend' => 'qb5l9bnaa7meaau8aol7vhueb3'
+    '_identity-frontend' => 'd8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 10
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fmy'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; advanced-frontend=qb5l9bnaa7meaau8aol7vhueb3; _identity-frontend=d8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65315'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fstatus'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fstatus'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847150.122
+    'REQUEST_TIME' => 1574847150
+]
+2019-11-27 10:32:31 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:194
+2019-11-27 10:32:31 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:31 [192.168.1.56][10][-][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'advanced-frontend' => 'qb5l9bnaa7meaau8aol7vhueb3'
+    '_identity-frontend' => 'd8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 10
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fstatus'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; advanced-frontend=qb5l9bnaa7meaau8aol7vhueb3; _identity-frontend=d8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65315'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847151.683
+    'REQUEST_TIME' => 1574847151
+]
+2019-11-27 10:32:41 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:40 [192.168.1.56][10][-][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = [
+    '_csrf-frontend' => '-rfzcy4Clx0RhtoNk88s7ZJnbDJYxBTONmUjDtL4CmO-9ZVLWVOncVPPs0-j-XmD6jNfQjugX_lhMhJXjb4_PA=='
+    'UserLeave' => [
+        'demo' => '10'
+        'sub' => 'sfsf'
+        'brief' => 'fsfsfsfsfsf'
+    ]
+    'leave-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'advanced-frontend' => 'qb5l9bnaa7meaau8aol7vhueb3'
+    '_identity-frontend' => 'd8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__id' => 10
+    'success' => 'Leave received! We will respond to you for conformation.'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '201'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://192.168.1.34'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; advanced-frontend=qb5l9bnaa7meaau8aol7vhueb3; _identity-frontend=d8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65318'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847160.881
+    'REQUEST_TIME' => 1574847160
+]
+2019-11-27 10:32:41 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:194
+2019-11-27 10:32:41 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:41 [192.168.1.56][10][-][info][application] $_GET = [
+    'r' => 'site/leave'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'advanced-frontend' => 'qb5l9bnaa7meaau8aol7vhueb3'
+    '_identity-frontend' => 'd8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 10
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; advanced-frontend=qb5l9bnaa7meaau8aol7vhueb3; _identity-frontend=d8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65318'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fleave'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847161.097
+    'REQUEST_TIME' => 1574847161
+]
+2019-11-27 10:32:55 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:162
+2019-11-27 10:32:55 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:55 [192.168.1.56][10][-][info][application] $_GET = [
+    'r' => 'site/my'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'advanced-frontend' => 'qb5l9bnaa7meaau8aol7vhueb3'
+    '_identity-frontend' => 'd8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 10
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fleave'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; advanced-frontend=qb5l9bnaa7meaau8aol7vhueb3; _identity-frontend=d8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65321'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmy'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fmy'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847175.325
+    'REQUEST_TIME' => 1574847175
+]
+2019-11-27 10:32:58 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:101
+2019-11-27 10:32:58 [192.168.1.56][10][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:32:58 [192.168.1.56][10][-][info][application] $_GET = [
+    'r' => 'site/status'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'advanced-frontend' => 'qb5l9bnaa7meaau8aol7vhueb3'
+    '_identity-frontend' => 'd8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 10
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fmy'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; advanced-frontend=qb5l9bnaa7meaau8aol7vhueb3; _identity-frontend=d8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65321'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fstatus'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Fstatus'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847178.645
+    'REQUEST_TIME' => 1574847178
+]
+2019-11-27 10:33:07 [192.168.1.56][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:33:07 [192.168.1.56][-][-][info][application] $_GET = [
+    'r' => 'site/logout'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'H1obXMLunxBkiokfLEhvvgPUOYGA0pXToNen4XMqG-lbGH1ktb-vfCbD4F0cfjrQe4AK8eO23uT3gJa4LGwutg=='
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'advanced-frontend' => 'qb5l9bnaa7meaau8aol7vhueb3'
+    '_identity-frontend' => 'd8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+]
+
+$_SESSION = []
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '107'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://192.168.1.34'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fstatus'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; advanced-frontend=qb5l9bnaa7meaau8aol7vhueb3; _identity-frontend=d8287d4f4786e0a406be03f83666ad806afe2c6f700fd0b15b77a8eafcc06c25a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22jqMbrrnCxXKlQqq2K2IZXgcI_SWHrVsK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65323'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogout'
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php?r=site%2Flogout'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847187.11
+    'REQUEST_TIME' => 1574847187
+]
+2019-11-27 10:33:07 [192.168.1.56][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+    in D:\xampp\htdocs\yiilogin\frontend\views\layouts\main.php:91
+    in D:\xampp\htdocs\yiilogin\frontend\controllers\SiteController.php:92
+2019-11-27 10:33:07 [192.168.1.56][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.56
+2019-11-27 10:33:07 [192.168.1.56][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'd4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf-frontend' => 'be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_\";}'
+    'advanced-frontend' => 'ms6dek1244lh1ei6dm0secfqhp'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.34'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://192.168.1.34/yiilogin/frontend/web/index.php?r=site%2Fstatus'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=d4cf8baf4e6d5e38c32615c75d6080151b4dadc96ac296b607f8f499228f6500a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf-frontend=be75f14b9aedffa187d61c4a282ca91b3160e5c70eb3fd641dabed98352d4d25a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DBf8wQ0lBIiB06UnxT3pcdK7WW1Y_F5_%22%3B%7D; advanced-frontend=ms6dek1244lh1ei6dm0secfqhp'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;D:\\xampp\\php;C:\\composer;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at 192.168.1.34 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => '192.168.1.34'
+    'SERVER_ADDR' => '192.168.1.34'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.56'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/yiilogin/frontend/web/index.php'
+    'REMOTE_PORT' => '65323'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yiilogin/frontend/web/index.php'
+    'SCRIPT_NAME' => '/yiilogin/frontend/web/index.php'
+    'PHP_SELF' => '/yiilogin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574847187.313
+    'REQUEST_TIME' => 1574847187
+]

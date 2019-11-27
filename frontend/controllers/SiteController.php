@@ -183,7 +183,7 @@ foreach($records as $user) {
         }
         else {
         $model = new UserLeave();
-       
+        $model->user_id = Yii::$app->user->identity->id;
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             //return $this->redirect(['view', 'id' => $model->id]);
             Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
