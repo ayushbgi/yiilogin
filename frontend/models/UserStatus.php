@@ -1,6 +1,7 @@
 <?php
 
-namespace app\models;
+//namespace app\models;
+namespace frontend\models;
 
 use Yii;
 
@@ -49,4 +50,6 @@ class UserStatus extends \yii\db\ActiveRecord
             'subject' => 'Subject',
         ];
     }
+
+   
 }

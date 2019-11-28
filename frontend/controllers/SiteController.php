@@ -16,7 +16,7 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use frontend\models\UserLeave;
-
+use frontend\models\UserStatus;
 
 //use app\models\UserLeave;
 use app\models\UserLeaveForm;
@@ -95,10 +95,61 @@ class SiteController extends Controller
     }
     public function actionStatus()
     {
+           
         if (Yii::$app->user->isGuest) {
             return $this->goHome(); }
         else {
-        return $this->render('status'); }
+            
+
+            $status = UserStatus::find()
+            ->where(['user_id'=>Yii::$app->user->identity->id])
+            ->all();
+            $total=0;
+            $present=0;
+            $sick=0;
+            $absent=0;
+            $mystatus="Report Present"; $mystat="Red"; $myread=false;
+            foreach($status as $count) {
+                if($count['status']!=3)
+                {
+                    $total++;
+                }
+                if($count['status']==2)
+                {
+                    $present++;
+                }
+                if($count['status']==1)
+                {
+                    $sick++;
+                }
+                if($count['status']==0)
+                {
+                    
+                }
+                if($count['date']==date("Y-m-d"))
+                {
+                    switch($count['status']){
+
+                        case 0 : $mystatus="Report Present"; $mystat="Red"; $myread=false;  break;
+                        case 1 : $mystatus="Sick Leave"; $mystat="Yellow"; $myread=true; break; 
+                        case 2 : $mystatus="Present"; $mystat="Green"; $myread=true; break;
+                        case 3 : $mystatus="Waiting Confirmation"; $mystat="Orange"; $myread=true; break;
+                        default : $mystatus="Report Present"; $mystat="Red"; $myread=false;
+                    }
+                }
+            }
+            $model = new UserStatus();
+            if (Yii::$app->request->post('status-button')) {
+                $model->user_id=Yii::$app->user->identity->id;
+                $model->date=date("Y-m-d");
+                $model->status=3;
+                $model->subject="Blah";
+                $model->save();
+                Yii::$app->session->setFlash('success', 'Blah Blah.');
+                return $this->redirect(['status']);
+            }
+           
+        return $this->render('status',array('absent'=>$absent,'sick'=>$sick,'present'=>$present,'total'=>$total,'mystatus'=>$mystatus,'mystat'=>$mystat,'myread'=>$myread)); }
     }
     
     public function actionDb()
