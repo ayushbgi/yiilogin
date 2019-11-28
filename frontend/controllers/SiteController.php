@@ -108,7 +108,8 @@ class SiteController extends Controller
             $present=0;
             $sick=0;
             $absent=0;
-            $mystatus="Report Present"; $mystat="Red"; $myread=false;
+            $check=1;
+            $mystatus="Report Present"; $mystat="Red"; $myread=false; 
             foreach($status as $count) {
                 if($count['status']!=3)
                 {
@@ -124,22 +125,26 @@ class SiteController extends Controller
                 }
                 if($count['status']==0)
                 {
-                    
+                    $absent++;
                 }
                 if($count['date']==date("Y-m-d"))
                 {
+                    $check=0;
                     switch($count['status']){
 
-                        case 0 : $mystatus="Report Present"; $mystat="Red"; $myread=false;  break;
-                        case 1 : $mystatus="Sick Leave"; $mystat="Yellow"; $myread=true; break; 
-                        case 2 : $mystatus="Present"; $mystat="Green"; $myread=true; break;
-                        case 3 : $mystatus="Waiting Confirmation"; $mystat="Orange"; $myread=true; break;
-                        default : $mystatus="Report Present"; $mystat="Red"; $myread=false;
+                        case 0 : $mystatus="Report Present"; $mystat="Red"; $myread=false; $check=1; break;
+                        case 1 : $mystatus="Sick Leave"; $mystat="Yellow"; $myread=true; $check=0; break; 
+                        case 2 : $mystatus="Present"; $mystat="Green"; $myread=true; $check=0; break;
+                        case 3 : $mystatus="Waiting Confirmation"; $mystat="Orange"; $myread=true; $check=0; break;
+                        default : $mystatus="Report Present"; $mystat="Red"; $myread=false; $check=1;
                     }
+        
                 }
             }
+
+            
             $model = new UserStatus();
-            if (Yii::$app->request->post('status-button')) {
+            if ((Yii::$app->request->post('status-button')) && $check==1) {
                 $model->user_id=Yii::$app->user->identity->id;
                 $model->date=date("Y-m-d");
                 $model->status=3;
