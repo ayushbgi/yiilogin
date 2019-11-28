@@ -1,0 +1,58 @@
+Message-ID: <773d6b5848bd5805e698a9ef44c472c5@localhost>
+Date: Mon, 25 Nov 2019 10:09:30 +0100
+Subject: Account registration at <span style="color:
+ #ea7c09;">Business</span><span style="color: #096db7;">gateways</span>with
+ Employee Id app-frontend
+From: "<span style=\"color: #ea7c09;\">Business</span><span style=\"color:
+ #096db7;\">gateways</span> robot" <support@example.com>
+To: ayush1@bgi.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1574672970_cf758c1daea3fb21c83fc308fa891f03_=_"
+
+
+--_=_swift_1574672970_cf758c1daea3fb21c83fc308fa891f03_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello ayush1,
+
+Follow the link below to verify your email:
+
+http=
+://localhost/yiilogin/frontend/web/index.php?r=3Dsite%2Fverify-email&token=
+=3D1OU-PHIeQBbP7MTfAhDfq9d3CcdLKxVI_1574672970
+
+--_=_swift_1574672970_cf758c1daea3fb21c83fc308fa891f03_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"verify-email">
+    <p>Hello ayush1,</p>
+
+    <p>Fol=
+low the link below to verify your email:</p>
+
+    <p><a href=3D"http://=
+localhost/yiilogin/frontend/web/index.php?r=3Dsite%2Fverify-email&amp;token=
+=3D1OU-PHIeQBbP7MTfAhDfq9d3CcdLKxVI_1574672970">http://localhost/yiilogin/f=
+rontend/web/index.php?r=3Dsite%2Fverify-email&amp;token=3D1OU-PHIeQBbP7MTfA=
+hDfq9d3CcdLKxVI_1574672970</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_1574672970_cf758c1daea3fb21c83fc308fa891f03_=_--
