@@ -23,6 +23,7 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <link rel="shortcut icon" href="images/tlogo.png" />
     <?php $this->head() ?>
+    
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -87,7 +88,9 @@ AppAsset::register($this);
 <!--        <p class="pull-right"><?= Yii::powered() ?></p>-->
     </div>
 </footer>
-
+<script>
+    $(#w2-success-0).delay(1000).hide(500); 
+    </script>
 <?php $this->endBody() ?>
 </body>
 </html>

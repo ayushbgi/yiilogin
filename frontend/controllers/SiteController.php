@@ -150,7 +150,7 @@ class SiteController extends Controller
                 $model->status=3;
                 $model->subject="Blah";
                 $model->save();
-                Yii::$app->session->setFlash('success', 'Blah Blah.');
+                Yii::$app->session->setFlash('success', 'You are Present! Witing for conformation.');
                 return $this->redirect(['status']);
             }
            

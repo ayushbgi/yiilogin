@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use yii\grid\GridView;
 
 /* @var $this yii\web\View */
 
@@ -50,7 +51,19 @@ $this->params['breadcrumbs'][] = $this->title;
                 <h2>Total</h2>
                 <h1><?php echo $total; ?></h1>                               
             </div>
+            
         </div>
-
+        
     </div>
+   
+
+
+    
+
+
+
+
+
+
 </div>
+
