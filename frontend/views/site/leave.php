@@ -32,14 +32,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 
                 <div class="form-group">
-                    <?= Html::submitButton('Save', ['class' => 'btn btn-primary', 'name' => 'leave-button']) ?>
+                    <?= Html::submitButton('Save', ['value'=>$leaveid,'class' => 'btn btn-primary', 'name' => 'leave-button']) ?>
                 </div>
 
             <?php ActiveForm::end(); ?>
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-5">
-        <?php $form = ActiveForm::begin(['id' => 'leave-form']);?>
+        <?php $form = ActiveForm::begin(['id' => 'leave-form1']);?>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         //'filterModel' => $searchModel,
@@ -61,7 +61,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 }
                                 if($model->status==1)
                                 {
-                                    return "Conform.";
+                                    return "Confirm.";
                                 }
                             }
             ],
@@ -77,7 +77,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     }
                     if($model->status==1)
                     {
-                        return Html::submitButton('Conformed', ['class' => 'btn btn-success btn-xs','disabled'=>true]);
+                        return Html::submitButton('Confirmed', ['class' => 'btn btn-success btn-xs','disabled'=>true]);
                     }
                 } ,
                
@@ -92,4 +92,5 @@ $this->params['breadcrumbs'][] = $this->title;
 
  
 </div>
+
 

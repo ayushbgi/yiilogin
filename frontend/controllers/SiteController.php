@@ -181,7 +181,23 @@ class SiteController extends Controller
             return $this->goHome();
         }
         else {
-
+            $model = new UserLeave();
+            $model->user_id = Yii::$app->user->identity->id;
+            $model->status = 0;
+            $model->leave_id='';
+            if(Yii::$app->request->post('leave-button')!=1){
+                $model->leave_id = Yii::$app->request->post('leave-button');
+            }
+            $searchModel = new AdminSearch();
+            $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+            $dataProvider->query->andWhere('user_id = :id' , array(':id'=>Yii::$app->user->identity->id));
+            if ($model->load(Yii::$app->request->post()) && $model->save()) {
+       
+            Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
+            return $this->redirect(['leave']);
+            
+            
+        }
             
             if (Yii::$app->request->post('delete')) {
                 $delid=Yii::$app->request->post('delete');
@@ -210,28 +226,22 @@ class SiteController extends Controller
 
 
                  return $this->render('leave',[
-                     'editid' => $editid,
+                     'leaveid' => $editid,
+                    'editid' => $editid,
                      'editsub' => $editsub,
                      'editbrief' => $editbrief,
+                     'model' => $model,
+                     'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
                  ]);
             }
       
-        $model = new UserLeave();
-        $model->user_id = Yii::$app->user->identity->id;
-        $model->status = "Pending";
-        $searchModel = new AdminSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        $dataProvider->query->andWhere('user_id = :id' , array(':id'=>Yii::$app->user->identity->id));
-            if ($model->load(Yii::$app->request->post()) && $model->save()) {
-       
-            Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
-            return $this->redirect(['leave']);
-            
-            
-        }
+        
+        
 
       
         return $this->render('leave', [
+            'leaveid' => 1,
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
             'model' => $model,

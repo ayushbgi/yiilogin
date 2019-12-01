@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use yii\grid\GridView;
+    use yii\grid\GridView;
 
 /* @var $this yii\web\View */
 
