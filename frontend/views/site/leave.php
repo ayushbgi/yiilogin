@@ -38,5 +38,28 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php ActiveForm::end(); ?>
         </div>
     </div>
- 
+ <br><br>
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        //'filterModel' => $searchModel,
+        'columns' => [
+           // ['class' => 'yii\grid\SerialColumn'],
+
+            'leave_id',
+            'sub',
+            'brief',
+            'status',
+            [
+                'class' => 'yii\grid\DataColumn', // can be omitted, as it is the default
+                'label' => 'Action',
+                //'value' => function(){return "";},
+                'content' => function() { return Html::a('Edit', ['site/index'], ['class' => 'btn btn-success btn-xs'])."   ". Html::a('Delete', ['site/index'], ['class' => 'btn btn-danger btn-xs']); } ,
+               
+            ],
+            
+           // ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+
 </div>
+

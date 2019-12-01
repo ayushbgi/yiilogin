@@ -17,11 +17,14 @@ use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use frontend\models\UserLeave;
 use frontend\models\UserStatus;
+use app\models\AdminSearch;
+use yii\web\NotFoundHttpException;
+
 
 //use app\models\UserLeave;
 use app\models\UserLeaveForm;
 
-use yii\web\NotFoundHttpException;
+
 
 
 
@@ -238,17 +241,34 @@ foreach($records as $user) {
             return $this->goHome();
         }
         else {
+            
+    
+        /*     return $this->render('index', [
+                'searchModel' => $searchModel,
+                'dataProvider' => $dataProvider,
+            ]); */
         $model = new UserLeave();
         $model->user_id = Yii::$app->user->identity->id;
+        $model->status = "Pending";
+        $searchModel = new AdminSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $dataProvider->query->andWhere('user_id = :id' , array(':id'=>Yii::$app->user->identity->id)/* Yii::$app->user->identity->id */);
             if ($model->load(Yii::$app->request->post()) && $model->save()) {
             //return $this->redirect(['view', 'id' => $model->id]);
             Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
             return $this->redirect(['leave']);
+            
+            
         }
 
-        return $this->render('leave', [
+        /* return $this->render('leave', [
             'model' => $model,
-        ]);
+        ]); */
+        return $this->render('leave', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+            'model' => $model,
+            ]);
         }
     }
 

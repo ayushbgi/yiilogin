@@ -22,6 +22,7 @@ AppAsset::register($this);
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <link rel="shortcut icon" href="images/tlogo.png" />
+    <script src="js/jquery-3.4.1.min.js"></script>
     <?php $this->head() ?>
     
 </head>
@@ -88,11 +89,20 @@ AppAsset::register($this);
 <!--        <p class="pull-right"><?= Yii::powered() ?></p>-->
     </div>
 </footer>
-<script>
-    $(#w2-success-0).delay(1000).hide(500); 
-    </script>
 <?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>
+
+<script>
+
+$('#w1-success-0').delay(5000).fadeOut(500); 
+$('#w2-success-0').delay(5000).fadeOut(500); 
+$('#w3-success-0').delay(5000).fadeOut(500);
+
+</script>
+
+<!--$('#w2-success-0').delay(15000).attr('class', 'alert-success alert fade out'); 
+    
+   alert-success alert fade in -->
 
