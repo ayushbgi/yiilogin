@@ -26,9 +26,9 @@ $this->params['breadcrumbs'][] = $this->title;
              
                 <?= $form->field($model, 'demo')->textInput(['readonly' => true,'value'=>Yii::$app->user->identity->id])->label('My Id') ?>
 
-                <?= $form->field($model, 'sub')->textInput(['autofocus' => true,'placeholder'=>'Subject'])->label('Subject') ?>
+                <?= $form->field($model, 'sub')->textInput(['autofocus' => true,'placeholder'=>'Subject','value'=>$editsub])->label('Subject') ?>
                 
-                <?= $form->field($model, 'brief')->textarea(['rows' => 6,'placeholder'=>'Brief Description'])->label('Brief') ?>
+                <?= $form->field($model, 'brief')->textarea(['rows' => 6,'placeholder'=>'Brief Description','value'=>$editbrief])->label('Brief') ?>
 
                 
                 <div class="form-group">
@@ -37,8 +37,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <?php ActiveForm::end(); ?>
         </div>
-    </div>
- <br><br>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
+        <?php $form = ActiveForm::begin(['id' => 'leave-form']);?>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         //'filterModel' => $searchModel,
@@ -48,18 +49,47 @@ $this->params['breadcrumbs'][] = $this->title;
             'leave_id',
             'sub',
             'brief',
-            'status',
+           // 'status',
+            [
+                'class' => 'yii\grid\DataColumn',
+                'label' =>'Status',
+                'value' => function($model)
+                            {
+                                if($model->status==0)
+                                {
+                                    return "Pending.";
+                                }
+                                if($model->status==1)
+                                {
+                                    return "Conform.";
+                                }
+                            }
+            ],
             [
                 'class' => 'yii\grid\DataColumn', // can be omitted, as it is the default
                 'label' => 'Action',
                 //'value' => function(){return "";},
-                'content' => function() { return Html::a('Edit', ['site/index'], ['class' => 'btn btn-success btn-xs'])."   ". Html::a('Delete', ['site/index'], ['class' => 'btn btn-danger btn-xs']); } ,
+                'content' => function($model) 
+                { 
+                    if($model->status==0)
+                    {
+                        return Html::submitButton('Edit', ['value'=> $model->leave_id,'class' => 'btn btn-warning btn-xs','name' => 'edit'])."   ". Html::submitButton('Delete', ['value'=> $model->leave_id,'class' => 'btn btn-danger btn-xs','name' => 'delete']);
+                    }
+                    if($model->status==1)
+                    {
+                        return Html::submitButton('Conformed', ['class' => 'btn btn-success btn-xs','disabled'=>true]);
+                    }
+                } ,
                
             ],
             
            // ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
+<?php ActiveForm::end(); ?>
+        </div>
+    </div>
 
+ 
 </div>
 

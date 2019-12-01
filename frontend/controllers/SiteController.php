@@ -96,6 +96,8 @@ class SiteController extends Controller
         else {
         return $this->redirect(['my']);}
     }
+
+
     public function actionStatus()
     {
            
@@ -160,58 +162,7 @@ class SiteController extends Controller
         return $this->render('status',array('absent'=>$absent,'sick'=>$sick,'present'=>$present,'total'=>$total,'mystatus'=>$mystatus,'mystat'=>$mystat,'myread'=>$myread)); }
     }
     
-    public function actionDb()
-    {
-
-     // $users = Yii::$app->db->createCommand('SELECT * FROM userinfo,user WHERE user.id=userinfo.id')
- //    ->queryAll();
-//foreach($users as $user) {
-//  echo $user['fname'].'<br />';
-//}
-    //  var_dump($users);
-    //echo $users[0]['fname'];
-        
-        
-        
-    //print_r($users);
-    //echo $users[0][Id];
-        
-        
-//        $user = Yii::app()->db->createCommand()
-//    ->select('id, username, profile')
-//    ->from('tbl_user u')
-//    ->join('tbl_profile p', 'u.id=p.user_id')
-//    ->where('id=:id', array(':id'=>$id))
-//    ->queryRow();
-        
-
-//$query->select('name as item')->from('auth_item')->orderBy('created_at');
-
-// $query = new Query();
-//         //$data= Yii::$app->db->createCommand()
-//     $query->select(['id','fname'])
-//                 ->from('userinfo')
-// 		->where('id=1')
-// 		//->orderBy()
-// 		//->groupBy()
-// 		->One();
-//         $command = $query->createCommand();
-// $records = $command->queryAll();
-$query = new Query();
-$query->select('*')->from('user')->leftJoin('userinfo','user.id=userinfo.id')->where(['user.status'=>2])->all();
-$command = $query->createCommand();
-$records = $command->queryAll();
-print_r($records);echo "<br><br>";
-foreach($records as $user) {
-      echo $user['fname'].'<br />';
-    }
-
-        
-        
-    exit;
-     // return $this->render('dbfeatch');
-    }
-    
+       
     public function actionMy()
     {
         if (Yii::$app->user->isGuest) {
@@ -225,49 +176,68 @@ foreach($records as $user) {
     
     public function actionLeave()
     {
-        // if (Yii::$app->user->isGuest) {
-        //     return $this->goHome(); }
-        // else { 
-        //     $model = new LeaveForm();
-        //     if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-        //         if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-        //             Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');} 
-        //         else {  Yii::$app->session->setFlash('error', 'There was an error sending your message.'); }
-        //         return $this->refresh(); } 
-        //     else {
-        //         return $this->render('leave', ['model' => $model,]);}
-        // }
+        
         if (Yii::$app->user->isGuest) {
             return $this->goHome();
         }
         else {
+
             
-    
-        /*     return $this->render('index', [
-                'searchModel' => $searchModel,
-                'dataProvider' => $dataProvider,
-            ]); */
+            if (Yii::$app->request->post('delete')) {
+                $delid=Yii::$app->request->post('delete');
+                $deletemodel = UserLeave::find()
+                 ->where(['leave_id'=>$delid])
+                 ->one()
+                 ->delete();
+
+                 Yii::$app->session->setFlash('success', 'Leave Deleted!');
+                 return $this->redirect(['leave']);
+            }
+                
+            if (Yii::$app->request->post('edit')) {
+                $editid=Yii::$app->request->post('edit');
+
+                $editmodel = UserLeave::find()
+                 ->where(['leave_id'=>$editid])
+                 ->one();
+                 $editsub=$editmodel['sub'];
+                 $editbrief=$editmodel['brief'];
+                $deletemodel1 = UserLeave::find()
+                  ->where(['leave_id'=>$editid])
+                  ->one()
+                  ->delete();
+                 
+
+
+                 return $this->render('leave',[
+                     'editid' => $editid,
+                     'editsub' => $editsub,
+                     'editbrief' => $editbrief,
+                 ]);
+            }
+      
         $model = new UserLeave();
         $model->user_id = Yii::$app->user->identity->id;
         $model->status = "Pending";
         $searchModel = new AdminSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        $dataProvider->query->andWhere('user_id = :id' , array(':id'=>Yii::$app->user->identity->id)/* Yii::$app->user->identity->id */);
+        $dataProvider->query->andWhere('user_id = :id' , array(':id'=>Yii::$app->user->identity->id));
             if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            //return $this->redirect(['view', 'id' => $model->id]);
+       
             Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
             return $this->redirect(['leave']);
             
             
         }
 
-        /* return $this->render('leave', [
-            'model' => $model,
-        ]); */
+      
         return $this->render('leave', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
             'model' => $model,
+            'editid' => '',
+            'editsub' =>'',
+            'editbrief' => '',
             ]);
         }
     }
