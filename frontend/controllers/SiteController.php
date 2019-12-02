@@ -24,12 +24,8 @@ date_default_timezone_set('Asia/Kolkata');
 
 //use app\models\UserLeave;
 use app\models\UserLeaveForm;
-
-
-
-
-
-
+use app\models\UserTask;
+use PHP_Token_WHERE;
 use yii\db\Query;
 
 
@@ -170,7 +166,29 @@ class SiteController extends Controller
           return $this->goHome();
       }
       else {
-        return $this->render('my');
+
+        $model =  UserTask::find()
+        ->where(['user_id'=>Yii::$app->user->identity->id])
+        ->all();
+        $today="";$yesterday="";$tomorrow="";
+        foreach($model as $date){
+           
+            if(date("Y-m-d")==$date['date']){
+                $today=$date['task'];
+            }
+            if(date("Y-m-d", strtotime( '-1 days' ))==$date['date']){
+                $yesterday=$date['task'];
+            }
+            if(date("Y-m-d", strtotime( '+1 days' ))==$date['date']){
+                $tomorrow=$date['task'];
+            }
+        }
+        
+        return $this->render('my',[
+             'today' => $today,
+             'yesterday'=> $yesterday,
+             'tomorrow' => $tomorrow,
+        ]);
     }
         
     }

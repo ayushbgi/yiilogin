@@ -12,6 +12,7 @@ use yii\grid\GridView;
 $this->title = 'Leave';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+
 <div class="user-leave-create">
     <h1>Apply for <?= Html::encode($this->title) ?>, <?= ucfirst(Yii::$app->user->identity->username) ?>!</h1>
 
@@ -89,7 +90,15 @@ $this->params['breadcrumbs'][] = $this->title;
 <?php ActiveForm::end(); ?>
         </div>
     </div>
-
+    <script>
+$( document ).ready(function() {
+    if(<?php echo $leaveid; ?>!=1)
+    $("table [data-key=<?php echo $leaveid; ?>]").css("background-color", "#ea7c092e");
+    $("tr [value=<?php echo $leaveid; ?>]").attr('disabled', 'disabled');
+    //alert($("tr").attr("data-id"));.removeClass().addClass('btn btn-xs')
+    //document.getElementById('id1').bgColor = '#ea7c092e';
+});
+</script>
  
 </div>
 
