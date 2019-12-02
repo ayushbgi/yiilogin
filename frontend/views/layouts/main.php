@@ -25,6 +25,15 @@ AppAsset::register($this);
     <link rel="shortcut icon" href="images/tlogo.png" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <?php $this->head() ?>
+    <style>
+    .dropdown-menu li a{ padding: 10px 20px;;
+                    padding-top: 5px;
+    }
+    .dropdown-menu{
+        padding:0;
+        padding-top: 5px;
+    }
+    </style>
     
 </head>
 <body>
@@ -61,15 +70,30 @@ AppAsset::register($this);
         ['label' => 'My', 'url' => ['/site/my']],
         ['label' => 'Status', 'url' => ['/site/status']],
         ['label' => 'Leave', 'url' => ['/site/leave']],
+        ['label' => ucfirst( Yii::$app->user->identity->username),
+            'items' => [
+                 ['label' => 'Update Password', 'url' => '#'],
+                // '<li class="dropdown-header">Dropdown Header</li>',
+                 ['label' => 'Update Profile', 'url' => '#','options'=>['class' => 'logout btn-block text-body m-5']],
+               //  '<li class="divider"></li>',
+                  '<li>'
+            . Html::beginForm(['/site/logout'], 'post')
+            . Html::submitButton(
+                'Logout',
+                ['class' => 'btn-danger  logout btn-block text-body']
+            )
+            . Html::endForm()
+            . '</li>',
+            ]],
     ];
-        $menuItems[] = '<li>'
+        /* $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(
                 'Logout (' . Yii::$app->user->identity->username . ')',
                 ['class' => 'btn btn-link logout']
             )
             . Html::endForm()
-            . '</li>';
+            . '</li>'; */
     }
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
