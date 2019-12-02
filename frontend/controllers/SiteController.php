@@ -1,4 +1,5 @@
 <?php
+
 namespace frontend\controllers;
 
 
@@ -19,7 +20,7 @@ use frontend\models\UserLeave;
 use frontend\models\UserStatus;
 use app\models\AdminSearch;
 use yii\web\NotFoundHttpException;
-
+date_default_timezone_set('Asia/Kolkata');
 
 //use app\models\UserLeave;
 use app\models\UserLeaveForm;
@@ -181,23 +182,21 @@ class SiteController extends Controller
             return $this->goHome();
         }
         else {
-            $model = new UserLeave();
-            $model->user_id = Yii::$app->user->identity->id;
-            $model->status = 0;
-            $model->leave_id='';
-            if(Yii::$app->request->post('leave-button')!=1){
-                $model->leave_id = Yii::$app->request->post('leave-button');
-            }
             $searchModel = new AdminSearch();
             $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
             $dataProvider->query->andWhere('user_id = :id' , array(':id'=>Yii::$app->user->identity->id));
+
+            $model = new UserLeave();
+            if(Yii::$app->request->post('leave-button')==1){
+            
+            $model->user_id = Yii::$app->user->identity->id;
+            $model->status = 0;
+            $model->leave_id='';
+                       
             if ($model->load(Yii::$app->request->post()) && $model->save()) {
-       
-            Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
-            return $this->redirect(['leave']);
-            
-            
-        }
+                Yii::$app->session->setFlash('success', 'Leave received! We will respond to you for conformation.');
+                return $this->redirect(['leave']);
+            }}
             
             if (Yii::$app->request->post('delete')) {
                 $delid=Yii::$app->request->post('delete');
@@ -210,6 +209,18 @@ class SiteController extends Controller
                  return $this->redirect(['leave']);
             }
                 
+            if(Yii::$app->request->post('leave-button')!=null && Yii::$app->request->post('leave-button')!=1){
+            
+                
+                $model1 = UserLeave::findOne(Yii::$app->request->post('leave-button'));
+               
+                
+                if ($model1->load(Yii::$app->request->post()) && $model1->save()) {
+                    Yii::$app->session->setFlash('success', 'Leave updated! We will respond to you for conformation.');
+                    return $this->redirect(['leave']);
+                }
+            }
+
             if (Yii::$app->request->post('edit')) {
                 $editid=Yii::$app->request->post('edit');
 
@@ -218,13 +229,7 @@ class SiteController extends Controller
                  ->one();
                  $editsub=$editmodel['sub'];
                  $editbrief=$editmodel['brief'];
-                $deletemodel1 = UserLeave::find()
-                  ->where(['leave_id'=>$editid])
-                  ->one()
-                  ->delete();
-                 
-
-
+                        
                  return $this->render('leave',[
                      'leaveid' => $editid,
                     'editid' => $editid,
