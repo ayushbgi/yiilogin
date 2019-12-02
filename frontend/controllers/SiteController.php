@@ -19,6 +19,7 @@ use frontend\models\ContactForm;
 use frontend\models\UserLeave;
 use frontend\models\UserStatus;
 use app\models\AdminSearch;
+use app\models\TaskSearch;
 use yii\web\NotFoundHttpException;
 date_default_timezone_set('Asia/Kolkata');
 
@@ -166,6 +167,9 @@ class SiteController extends Controller
           return $this->goHome();
       }
       else {
+        $searchModel = new TaskSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $dataProvider->query->andWhere('user_id = :id' , array(':id'=>Yii::$app->user->identity->id));
 
         $model =  UserTask::find()
         ->where(['user_id'=>Yii::$app->user->identity->id])
@@ -188,6 +192,8 @@ class SiteController extends Controller
              'today' => $today,
              'yesterday'=> $yesterday,
              'tomorrow' => $tomorrow,
+             'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
         ]);
     }
         
