@@ -26,12 +26,12 @@ AppAsset::register($this);
     <script src="js/jquery-3.4.1.min.js"></script>
     <?php $this->head() ?>
     <style>
-    .dropdown-menu li a{ padding: 10px 20px;;
-                    padding-top: 5px;
+    .dropdown-menu li a{ padding: 15px 20px;;
+                    /* padding-top: 5px; */
     }
     .dropdown-menu{
         padding:0;
-        padding-top: 5px;
+        /* padding-top: 5px; */
     }
     </style>
     
@@ -72,21 +72,21 @@ AppAsset::register($this);
         ['label' => 'Leave', 'url' => ['/site/leave']],
         ['label' => ucfirst( Yii::$app->user->identity->username),
             'items' => [
-                 ['label' => 'Update Password', 'url' => '#'],
-                // '<li class="dropdown-header">Dropdown Header</li>',
-                 ['label' => 'Update Profile', 'url' => '#','options'=>['class' => 'logout btn-block text-body m-5']],
-               //  '<li class="divider"></li>',
-                  '<li>'
-            . Html::beginForm(['/site/logout'], 'post')
-            . Html::submitButton(
-                'Logout',
-                ['class' => 'btn-danger  logout btn-block text-body']
-            )
-            . Html::endForm()
-            . '</li>',
-            ]],
+                 ['label' => 'Reset Password', 'url' => ['/site/reset']],
+                 ['label' => 'Update Profile', 'url' => '#'],               
+                  '<li>'. Html::beginForm(['/site/logout'], 'post')
+                        . Html::submitButton('Logout',
+                        ['class' => 'btn-danger  logout btn-block text-body'])
+                        . Html::endForm()
+                   .'</li>',
+                ],
+            'active' => ($this->context->action->id == 'reset'),
+        ],
     ];
-        /* $menuItems[] = '<li>'
+        /* $menuItems[] = // '<li class="dropdown-header">Dropdown Header</li>',
+        //  '<li class="divider"></li>',
+        
+        '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(
                 'Logout (' . Yii::$app->user->identity->username . ')',

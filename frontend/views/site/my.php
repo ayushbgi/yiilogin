@@ -4,6 +4,9 @@
 use yii\grid\GridView;
 
 $this->title = 'My Yii Application';
+//echo Yii::$app->view->id;
+// echo $this->context->action->id;
+// exit;
 ?>
 
 <div class="site-index">
@@ -25,7 +28,7 @@ $this->title = 'My Yii Application';
 
                 <p><?php echo $yesterday;?></p>
 
-                <p"><a id="show" class="btn btn-default" >&laquo; Previous </a></p>
+                <!-- <p"><a id="show" class="btn btn-default" >&laquo; Previous </a></p> -->
             </div>
             <div class="col-lg-4 text-center">
                 <h2>Today</h2>
@@ -39,7 +42,7 @@ $this->title = 'My Yii Application';
 
                 <p><?php echo $tomorrow;?></p>
 
-                <p"><a id="show" class="btn btn-default" > &nbsp; Next &nbsp;&nbsp; &raquo;</a></p>
+                <!-- <p"><a id="show" class="btn btn-default" > &nbsp; Next &nbsp;&nbsp; &raquo;</a></p> -->
             </div>
         </div>
 

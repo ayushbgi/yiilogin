@@ -20,6 +20,7 @@ use frontend\models\UserLeave;
 use frontend\models\UserStatus;
 use app\models\AdminSearch;
 use app\models\TaskSearch;
+use app\models\UserReset;
 use yii\web\NotFoundHttpException;
 date_default_timezone_set('Asia/Kolkata');
 
@@ -340,6 +341,23 @@ class SiteController extends Controller
             ]);
         }
     }
+
+
+    /**
+     * Displays about page.
+     *
+     * @return mixed
+     */
+    public function actionReset()
+    {
+    
+        $model = new UserReset();
+        return $this->render('reset', [
+            'model' => $model,
+       ]);
+    }
+
+
 
     /**
      * Displays about page.

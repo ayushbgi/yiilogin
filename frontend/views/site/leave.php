@@ -64,6 +64,10 @@ $this->params['breadcrumbs'][] = $this->title;
                                 {
                                     return "Confirm.";
                                 }
+                                if($model->status==3)
+                                {
+                                    return "Rejected.";
+                                }
                             }
             ],
             [
@@ -74,11 +78,15 @@ $this->params['breadcrumbs'][] = $this->title;
                 { 
                     if($model->status==0)
                     {
-                        return Html::submitButton('Edit', ['value'=> $model->leave_id,'class' => 'btn btn-warning btn-xs','name' => 'edit'])."   ". Html::submitButton('Delete', ['value'=> $model->leave_id,'class' => 'btn btn-danger btn-xs','name' => 'delete']);
+                        return Html::submitButton('Edit', ['value'=> $model->leave_id,'class' => 'btn btn-warning btn-xs btn-block','name' => 'edit'])."   ". Html::submitButton('Delete', ['value'=> $model->leave_id,'class' => 'btn btn-danger btn-xs btn-block','name' => 'delete']);
                     }
                     if($model->status==1)
                     {
-                        return Html::submitButton('Confirmed', ['class' => 'btn btn-success btn-xs','disabled'=>true]);
+                        return Html::submitButton('Confirmed', ['class' => 'btn btn-success btn-xs btn-block','disabled'=>true]);
+                    }
+                    if($model->status==3)
+                    {
+                        return Html::submitButton('Rejected', ['class' => 'btn btn-danger btn-xs btn-block','disabled'=>true]);
                     }
                 } ,
                
