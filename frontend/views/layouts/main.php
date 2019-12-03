@@ -131,6 +131,8 @@ AppAsset::register($this);
 $('#w1-success-0').delay(5000).fadeOut(500); 
 $('#w2-success-0').delay(5000).fadeOut(500); 
 $('#w3-success-0').delay(5000).fadeOut(500);
+$('#w4-success-0').delay(5000).fadeOut(500);
+$('#w5-success-0').delay(5000).fadeOut(500);
 
 </script>
 
